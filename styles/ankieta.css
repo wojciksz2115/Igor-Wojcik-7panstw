@@ -1,0 +1,160 @@
+body
+{
+    background-color: rgb(245, 245, 245);
+    font-family:'Segoe UI';
+}
+a
+{
+    color:black;
+    text-decoration: none;
+    transition: 300ms;
+}
+a:hover
+{
+    background-color: rgb(207, 207, 207);
+}
+.header
+{
+    background-color: rgb(202, 202, 202);
+    text-align: center;
+    margin-bottom: 3vw;
+    border-radius: 3vw;
+    color: red;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
+
+
+@media all and (max-width:600px)
+{
+body
+{
+    margin:3vw;
+}
+.header
+{
+    padding: 2vw 0 2vw 0;
+    font-size: 12vw;
+}
+a
+{
+    font-size: 6vw;
+    background-color: rgb(221, 221, 221);
+    border-radius: 1vw;
+    padding:1vw 2vw 1vw 2vw
+}
+.all{
+    font-size: 6vw;
+    line-height: 11vw;
+    padding:2vw;
+    background-color: rgb(233, 233, 233);
+    border-radius: 3vw;
+    margin-bottom: 3vw;
+}
+.text{
+    width: 50vw;
+    height: 7vw;
+    font-size: 6vw;
+}
+.radio{
+    width:4vw;
+    height:4vw;
+}
+.sub{
+    width: auto;
+    height: auto;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    font-size: 6vw;
+}
+}
+@media all and (min-width:601px) and (max-width:1199px)
+{
+body
+{
+    margin:1.5vw;
+}
+.header
+{
+    font-size: 4vw;
+    padding: 1vw 0 1vw 0;
+    border-radius: 3vw;
+    
+}
+a
+{
+    font-size: 3vw;
+    background-color: rgb(221, 221, 221);
+    border-radius: 1vw;
+    padding:0.5vw 1vw 0.5vw 1vw
+}
+.all{
+    font-size: 3vw;
+    line-height: 4.5vw;
+    padding:1vw;
+    background-color: rgb(233, 233, 233);
+    border-radius: 3vw;
+    margin-bottom: 3vw;
+}
+.text{
+    width: 35vw;
+    height:4vw;
+    font-size: 3vw;
+}
+.radio{
+    width:1.5vw;
+    height:1.5vw;
+}
+.sub{
+    width: auto;
+    height: auto;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    font-size: 2.5vw;
+}
+}
+@media all and (min-width:1200px)
+{
+a
+{
+    font-size: 1.5vw;
+    background-color: rgb(221, 221, 221);
+    border-radius: 1vw;
+    padding:15px 25px;
+}
+body
+{
+    margin:1vw;
+}
+.header
+{
+    font-size: 2vw;
+    padding: 0.5vw 0 0.5vw 0;
+    border-radius: 1vw;
+}
+.all{
+    font-size: 1.5vw;
+    line-height: 70px;
+    padding:1vw;
+    background-color: rgb(233, 233, 233);
+    border-radius: 3vw;
+    margin-bottom: 3vw;
+}
+.text{
+    width: 20vw;
+    height:2.5vw;
+    font-size: 1.5vw;
+}
+.radio{
+    width:1vw;
+    height:1vw;
+}
+.sub{
+    width: auto;
+    height: auto;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-size: 1.2vw;
+}
+}
