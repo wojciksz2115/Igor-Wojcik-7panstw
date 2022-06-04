@@ -42,7 +42,7 @@ body
     padding: 2vw 0 2vw 0;
     font-size: 12vw;
 }
-#back
+a
 {
     font-size: 6vw;
     background-color: rgb(221, 221, 221);
@@ -63,7 +63,7 @@ body
     padding: 1vw 0 1vw 0;
     border-radius: 3vw;
 }
-  #back
+  a
   {
       font-size: 3vw;
       background-color: rgb(221, 221, 221);
@@ -85,7 +85,7 @@ body
   padding: 0.5vw 0 0.5vw 0;
   border-radius: 1vw;
 }
-#back
+a
 {
     font-size: 1.5vw;
     background-color: rgb(221, 221, 221);
