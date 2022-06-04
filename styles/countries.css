@@ -7,7 +7,7 @@ body
 {
     text-align: center;
 }
-@media all and (min-width:409px) and (max-width:815px)
+@media all and (min-width:409px) and (max-width:863px)
 {
 body{
     margin:4vw;
@@ -35,7 +35,7 @@ td, th{
 }
 #komp, a, ul{display: none;}
 }
-@media all and (min-width:924px)
+@media all and (min-width:864px)
 {
 body{
     margin:3vw;
