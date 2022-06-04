@@ -3,10 +3,6 @@ body
     background-color: rgb(245, 245, 245);
     font-family:'Segoe UI';
 }
-iframe{
-  position: absolute;
-  display: flex;
-}
 a
 {
     color:black;
@@ -30,6 +26,7 @@ a
     display:none;
     border-radius: 3vw;
     width: 75vw;
+    max-width: 960px;
 }
 @media all and (max-width: 600px) {
 
@@ -91,8 +88,5 @@ a
     background-color: rgb(221, 221, 221);
     border-radius: 1vw;
     padding:15px 25px;
-}
-.mySlides{
-    width: 68vw;
 }
 }
