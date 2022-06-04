@@ -9,47 +9,27 @@
 </head>
 <body>
     <div class="header">Galeria</div>
-    <a href="index.html" id="back">Powrót</a>
-    <br><br>
-    <div class="all">
-      <div class="responsive">
-        <div class="gallery">
-          <a target="_blank" href="photo/krajobraz_fr.jpg">
-            <img src="photo/krajobraz_fr.jpg" alt="francja" width="600" height="400">
-          </a>
-          <div class="desc">Francja</div>
-        </div>
-      </div>
-      
-      
-      <div class="responsive">
-        <div class="gallery">
-          <a target="_blank" href="photo/krajobraz_hisz.jpg">
-            <img src="photo/krajobraz_hisz.jpg" alt="hiszpania" width="600" height="400">
-          </a>
-          <div class="desc">Hiszpania</div>
-        </div>
-      </div>
-      
-      <div class="responsive">
-        <div class="gallery">
-          <a target="_blank" href="photo/krajobraz_pl.jpg">
-            <img src="photo/krajobraz_pl.jpg" alt="polska" width="600" height="400">
-          </a>
-          <div class="desc">Polska</div>
-        </div>
-      </div>
-      
-      <div class="responsive">
-        <div class="gallery">
-          <a target="_blank" href="photo/krajobraz_szw.jpg">
-            <img src="photo/krajobraz_szw.jpg" alt="szwecja" width="600" height="400">
-          </a>
-          <div class="desc">Szwecja</div>
-        </div>
-      </div>
-
-      <div class="clearfix"></div>
+    <div class="container">
+      <img class="mySlides" src="photo/krajobraz_fr.jpg">
+      <img class="mySlides" src="photo/krajobraz_hisz.jpg">
+      <img class="mySlides" src="photo/krajobraz_pl.jpg">
+      <img class="mySlides" src="photo/krajobraz_szw.jpg">
     </div>
 </body>
+<script>
+  var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 3000);
+}
+  </script>
 </html>
