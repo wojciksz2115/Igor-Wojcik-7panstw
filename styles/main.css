@@ -126,15 +126,16 @@ body
 }
 .menu
 {
-    font-size: 4vw;
+    font-size: 20px;
     line-height: 80px;
-    padding:10px;
+    padding:1px;
     float:left;
     border-radius: 6px;
-    width:25vw;
+    width:20vw;
     height: 745px;
     display: flex;
     align-items: center;
+    min-width: 145px;
 }
 a
 {
@@ -144,9 +145,8 @@ a
 iframe{
     float:right;
     border-radius: 3vw;
-    width: 68vw;
+    width: 72vw;
     height: 745px;
-    
 }
 .footer{
     font-size: 20px;
@@ -169,12 +169,12 @@ body
 }
 .menu
 {
-    font-size: 1.5vw;
+    font-size: 25px;
     line-height: 80px;
-    padding:15px;
+    padding:1px;
     float:left;
     border-radius: 6px;
-    width:225px;
+    width:14.9vw;
     height: 745px;
     border-radius: 15px;
     display: flex;
@@ -188,9 +188,8 @@ a
 iframe{
     float:right;
     border-radius: 15px;
-    width: 77vw;
+    width: 80vw;
     height: 745px;
-    
 }
 .footer{
     font-size: 23px;
